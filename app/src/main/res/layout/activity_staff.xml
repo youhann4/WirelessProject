@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StaffAct"
+    android:background="@drawable/backg" >
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="352dp"
+        android:backgroundTint="@color/secondary"
+        android:src="@drawable/add"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/SchatBtn"
+        android:layout_width="145dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="359dp"
+        android:background="@drawable/round_back_secondary_100"
+        android:text="Chat"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="289dp"
+        android:layout_marginBottom="421dp"
+        android:text="Upload Material"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/helloS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="75dp"
+        android:text="Hello Mr/Mrs" />
+
+
+</RelativeLayout>
