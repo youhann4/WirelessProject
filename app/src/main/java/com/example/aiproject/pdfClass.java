@@ -1,5 +1,7 @@
 package com.example.aiproject;
 
+//helperClass
+
 public class pdfClass {
 
     public String url;
